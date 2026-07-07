@@ -107,11 +107,11 @@ h1,h2,h3,h4{font-weight:700;letter-spacing:-0.03em;color:var(--text-primary);}
 }
 .brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:15px;color:var(--text-primary);letter-spacing:-0.01em;}
 .brand .mark{
-  width:34px;height:34px;border-radius:10px;
+  width:34px;height:34px;
   display:flex;align-items:center;justify-content:center;
 }
 .brand .mark img{
-  width:100%;height:100%;object-fit:contain;
+  width:34px;height:34px;display:block;
 }
 .brand small{display:block;font-size:10.5px;font-weight:500;color:var(--text-muted);letter-spacing:0;margin-top:1px;}
 .nav-links{display:flex;align-items:center;gap:4px;}
